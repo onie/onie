@@ -1,6 +1,0 @@
-#!/bin/sh
-
-echo "Rebooting into ONIE (re)install mode..."
-
-fw_setenv -f onie_boot_reason install
-reboot

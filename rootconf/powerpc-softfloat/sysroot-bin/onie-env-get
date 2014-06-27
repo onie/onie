@@ -1,4 +1,0 @@
-#!/bin/sh
-
-# wrapper for fw_printenv
-/usr/sbin/fw_printenv "$@"

@@ -1,6 +1,0 @@
-#!/bin/sh
-
-echo "Rebooting into OS uninstall mode..."
-
-fw_setenv -f onie_boot_reason uninstall
-reboot

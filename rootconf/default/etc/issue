@@ -1,3 +1,0 @@
-To check the install status inspect /var/log/onie.log.
-Try this:  tail -f /var/log/onie.log
-

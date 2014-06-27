@@ -1,7 +1,0 @@
-#!/bin/sh
-
-echo "Rebooting into ONIE (re)install mode..."
-
-grub-reboot ONIE
-/mnt/onie-boot/onie/tools/bin/onie-boot-mode -q -o install
-reboot
